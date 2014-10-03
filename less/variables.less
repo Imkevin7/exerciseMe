@@ -23,22 +23,24 @@
 @white:                 #fff;
 @black:                 #000;
 @whiteBg:               @white;
-@orange:                 #FFBF00;
+@orange:                 #FC5B3F;
 @orangeBg:               @orange;
-@orangeBgBorder:         darken(@orange, 20%);
-@lightGreen:             #CCC314;
+@orangeBgBorder:         darken(@orange, 10%);
+@lightGreen:             #6FB07F;
 @lightGreenBg:          @lightGreen;
-@lightGreenBgBorder:     darken(@lightGreen, 20%);
-@lightBlue:             #1496CC;
+@lightGreenBgBorder:     darken(@lightGreen, 10%);
+@lightBlue:             #068587;
 @lightBlueBg:           @lightBlue;
-@lightBlueBgBorder:     darken(@lightBlue, 20%);
+@lightBlueBgBorder:     darken(@lightBlue, 10%);
+;
+@navColor:             #112F41;
 
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #464637;
+@body-bg:               @gray-dark;
 //** Global text color on `<body>`.
 @text-color:            @white;
 
@@ -356,7 +358,7 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #777;
-@navbar-default-bg:                darken(@lightBlue,10%);
+@navbar-default-bg:                @navColor;//darken(@navColor,1%);
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
