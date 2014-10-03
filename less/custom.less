@@ -1,4 +1,23 @@
 // main: bootstrap.less
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
+    width: 100%;
+    overflow: hidden;
+}
+.footer{
+     background: @black;
+    margin-left: 0px;
+}
 #logo{
   color:         @white;   
 }
