@@ -6184,10 +6184,13 @@ body {
 }
 .footer {
   background: #000000;
-  margin-left: 0px;
 }
 #logo {
   color: #ffffff;
+  background: #fcb03c;
+}
+#logo h1 {
+  margin: 5px 0px;
 }
 .text-white {
   color: #ffffff;
@@ -6197,6 +6200,9 @@ body {
 }
 .box {
   display: inline-block;
+}
+#box a {
+  color: #ffffff;
 }
 .orangeBg {
   background: #fc5b3f;
