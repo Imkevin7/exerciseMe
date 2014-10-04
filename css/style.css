@@ -6235,7 +6235,7 @@ body {
 }
 #graphs h2 {
   font-family: Verdana;
-  border-bottom: 2px solid #eeeeee;
+  margin: 2px;
   font-weight: bold;
 }
 .top {
