@@ -6174,16 +6174,19 @@ body {
 }
 .wrapper {
   min-height: 100%;
-  margin: 0 auto -155px;
+  margin: 0 auto -50px;
   /* the bottom margin is the negative value of the footer's height */
 }
 .footer,
 .push {
-  height: 155px;
+  height: 50px;
   /* '.push' must be the same height as 'footer' */
 }
 .footer {
   background: #000000;
+}
+.footer p {
+  margin-top: 20px;
 }
 #logo {
   color: #ffffff;
