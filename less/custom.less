@@ -24,6 +24,13 @@ html, body {
     background:     @navColor;
     h1{
           margin: 5px 0px;   
+        font-weight: bold;
+    }
+    a{
+      color: @white;   
+    }
+    a:hover{
+         text-decoration: none;   
     }
 }
 .text-white{
@@ -35,7 +42,9 @@ html, body {
 .box{
      display: inline-block;
    // height: 200px;
-    
+    h2{
+         font-weight: bold;   
+    }
     
 }
 #box{
@@ -62,10 +71,19 @@ html, body {
 #graphs{
   h2{
     font-family: Verdana;   
-      border-bottom: 2px solid @white;
+      border-bottom: 2px solid @gray-lighter;
+      font-weight: bold;
   }
 }
 .top{
      cursor: pointer;
     display:none;
+    color:     @navColor;
+    font-weight: bold;
+    font-family: cursive;
 }
+.updates div > p{
+  border-bottom: 1px dashed @gray-light;   
+    padding-bottom: 10px;
+}
+#updates div > p:last-child{border-bottom:none;}
