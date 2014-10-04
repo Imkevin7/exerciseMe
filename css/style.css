@@ -6252,6 +6252,6 @@ body {
   border-bottom: 1px dashed #777777;
   padding-bottom: 10px;
 }
-#updates div > p:last-child {
+.updates div > p:last-child {
   border-bottom: none;
 }
