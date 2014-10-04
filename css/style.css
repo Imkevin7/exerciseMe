@@ -6227,3 +6227,7 @@ body {
   font-family: Verdana;
   border-bottom: 2px solid #ffffff;
 }
+.top {
+  cursor: pointer;
+  display: none;
+}
