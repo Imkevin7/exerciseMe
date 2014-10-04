@@ -6245,6 +6245,9 @@ body {
   font-weight: bold;
   font-family: cursive;
 }
+.updates small {
+  color: #eeeeee;
+}
 .updates div > p {
   border-bottom: 1px dashed #777777;
   padding-bottom: 10px;
