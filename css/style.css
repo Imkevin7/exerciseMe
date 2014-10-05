@@ -6237,6 +6237,7 @@ body {
   font-family: Verdana;
   margin: 2px;
   font-weight: bold;
+  border-bottom: 2px solid #eeeeee;
 }
 .top {
   cursor: pointer;
