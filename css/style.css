@@ -6251,10 +6251,15 @@ body {
   font-family: cursive;
 }
 .updates small {
-  color: #eeeeee;
+  color: #fcb03c;
+  font-style: italic;
 }
 .updates h3 {
   color: #fcb03c;
+  border-bottom: 2px solid #fcb03c;
+}
+.updates h4 {
+  font-style: italic;
 }
 .updates div > p {
   border-bottom: 1px dashed #777777;
