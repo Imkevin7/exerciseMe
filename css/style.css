@@ -6190,7 +6190,7 @@ body {
 }
 #logo {
   color: #ffffff;
-  background: #fcb03c;
+  background: #000000;
 }
 #logo h1 {
   margin: 5px 0px;
@@ -6229,6 +6229,10 @@ body {
   background: #068587;
   border: 1px solid #045556;
 }
+.yellowBg {
+  background: #fcb03c;
+  border: 1px solid #fca41e;
+}
 .wrapper {
   width: 100%;
   overflow: hidden;
@@ -6248,6 +6252,9 @@ body {
 }
 .updates small {
   color: #eeeeee;
+}
+.updates h3 {
+  color: #fcb03c;
 }
 .updates div > p {
   border-bottom: 1px dashed #777777;

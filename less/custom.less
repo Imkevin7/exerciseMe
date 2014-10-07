@@ -21,7 +21,7 @@ html, body {
 }
 #logo{
     color:         @white;   
-    background:     @navColor;
+    background:    @black;
     h1{
           margin: 5px 0px;   
         font-weight: bold;
@@ -64,6 +64,10 @@ html, body {
      background:     @lightBlueBg;
     border:         1px solid @lightBlueBgBorder;
 }
+.yellowBg{
+     background:     @navColor;
+    border:         1px solid darken(@navColor, 6%);
+}
 .wrapper{
      width: 100%;
     overflow: hidden;
@@ -87,6 +91,9 @@ html, body {
      small{
        color: @gray-lighter;   
      }
+    h3{
+         color: @navColor;   
+    }
 }
 .updates div > p{
   border-bottom: 1px dashed @gray-light;   
