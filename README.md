@@ -1,4 +1,4 @@
-bootstrapMain
+Exercise Site
 =============
 
-My main files
+Simple site yo.
