@@ -6241,14 +6241,14 @@ body {
   font-family: Verdana;
   margin: 2px;
   font-weight: bold;
-  border-bottom: 2px solid #eeeeee;
 }
 .top {
   cursor: pointer;
   display: none;
   color: #fcb03c;
   font-weight: bold;
-  font-family: cursive;
+  font-family: Arial;
+  letter-spacing: 10px;
 }
 .updates small {
   color: #fcb03c;
